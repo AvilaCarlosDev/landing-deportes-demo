@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+    <div className="min-h-[80vh] lg:min-h-[90vh] bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
       {/* Header */}
       <header className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white sticky top-0 z-50 shadow-2xl">
         {/* Top bar */}
@@ -116,7 +116,7 @@ function App() {
                 🏆 NUEVA COLECCIÓN 2026
               </div>
 
-              <h2 className="text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-6 leading-none">
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-6 leading-none">
                 SUPERA TUS<br/>
                 <span className="text-yellow-300">LÍMITES</span>
               </h2>
