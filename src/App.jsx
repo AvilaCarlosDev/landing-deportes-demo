@@ -3,28 +3,28 @@ import { useState } from 'react'
 function App() {
   // Imágenes reales de Unsplash - Deportes
   const images = {
-    hero: 'https://source.unsplash.com/random/600x400/?sports,fitness',
+    hero: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
     categorias: {
-      futbol: 'https://source.unsplash.com/random/600x400/?sports,fitness',
-      basket: 'https://source.unsplash.com/random/600x400/?sports,fitness',
-      fitness: 'https://source.unsplash.com/random/600x400/?sports,fitness',
-      running: 'https://source.unsplash.com/random/600x400/?sports,fitness',
-      natacion: 'https://source.unsplash.com/random/600x400/?sports,fitness',
-      boxeo: 'https://source.unsplash.com/random/600x400/?sports,fitness',
+      futbol: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      basket: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      fitness: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      running: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      natacion: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      boxeo: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
     },
     productos: [
-      { img: 'https://source.unsplash.com/random/600x400/?sports,fitness', name: 'Camiseta Fútbol', price: '$25', category: 'Fútbol' },
-      { img: 'https://source.unsplash.com/random/600x400/?sports,fitness', name: 'Zapatillas Running', price: '$85', category: 'Running' },
-      { img: 'https://source.unsplash.com/random/600x400/?sports,fitness', name: 'Mancuernas Set', price: '$45', category: 'Fitness' },
-      { img: 'https://source.unsplash.com/random/600x400/?sports,fitness', name: 'Balón Basket', price: '$35', category: 'Basket' },
+      { img: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80', name: 'Camiseta Fútbol', price: '$25', category: 'Fútbol' },
+      { img: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80', name: 'Zapatillas Running', price: '$85', category: 'Running' },
+      { img: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80', name: 'Mancuernas Set', price: '$45', category: 'Fitness' },
+      { img: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80', name: 'Balón Basket', price: '$35', category: 'Basket' },
     ],
     galeria: [
-      'https://source.unsplash.com/random/600x400/?sports,fitness',
-      'https://source.unsplash.com/random/600x400/?sports,fitness',
-      'https://source.unsplash.com/random/600x400/?sports,fitness',
-      'https://source.unsplash.com/random/600x400/?sports,fitness',
-      'https://source.unsplash.com/random/600x400/?sports,fitness',
-      'https://source.unsplash.com/random/600x400/?sports,fitness',
+      'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
+      'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800https://source.unsplash.com/random/600x400/?sports,fitnessq=80',
     ],
   }
 
