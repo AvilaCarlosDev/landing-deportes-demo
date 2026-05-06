@@ -152,6 +152,30 @@ function App() {
               </div>
             </div>
 
+      {/* Social Proof - Stats */}
+      <section className="bg-blue-900 py-12 px-6 lg:px-12">
+        <div className="max-w-[1800px] mx-auto">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-black text-yellow-400 mb-2">+5K</div>
+              <div className="text-sm lg:text-base font-bold text-blue-200">Equipos vendidos</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-black text-yellow-400 mb-2">4.8★</div>
+              <div className="text-sm lg:text-base font-bold text-blue-200">Atletas felices</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-black text-yellow-400 mb-2">+50</div>
+              <div className="text-sm lg:text-base font-bold text-blue-200">Equipos surtidos</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-black text-yellow-400 mb-2">100%</div>
+              <div className="text-sm lg:text-base font-bold text-blue-200">Calidad garantizada</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
             {/* Hero Sports Images */}
             <div className="relative hidden lg:block">
               <div className="grid grid-cols-2 gap-4">
