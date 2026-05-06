@@ -3,28 +3,28 @@ import { useState } from 'react'
 function App() {
   // Imágenes reales de Unsplash - Deportes
   const images = {
-    hero: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200&q=80',
+    hero: 'https://source.unsplash.com/random/600x400/?sports,fitness',
     categorias: {
-      futbol: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600&q=80',
-      basket: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80',
-      fitness: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80',
-      running: 'https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?w=600&q=80',
-      natacion: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80',
-      boxeo: 'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=600&q=80',
+      futbol: 'https://source.unsplash.com/random/600x400/?sports,fitness',
+      basket: 'https://source.unsplash.com/random/600x400/?sports,fitness',
+      fitness: 'https://source.unsplash.com/random/600x400/?sports,fitness',
+      running: 'https://source.unsplash.com/random/600x400/?sports,fitness',
+      natacion: 'https://source.unsplash.com/random/600x400/?sports,fitness',
+      boxeo: 'https://source.unsplash.com/random/600x400/?sports,fitness',
     },
     productos: [
-      { img: 'https://images.unsplash.com/photo-1511886929837-354d827aae26?w=400&q=80', name: 'Camiseta Fútbol', price: '$25', category: 'Fútbol' },
-      { img: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80', name: 'Zapatillas Running', price: '$85', category: 'Running' },
-      { img: 'https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=400&q=80', name: 'Mancuernas Set', price: '$45', category: 'Fitness' },
-      { img: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&q=80', name: 'Balón Basket', price: '$35', category: 'Basket' },
+      { img: 'https://source.unsplash.com/random/600x400/?sports,fitness', name: 'Camiseta Fútbol', price: '$25', category: 'Fútbol' },
+      { img: 'https://source.unsplash.com/random/600x400/?sports,fitness', name: 'Zapatillas Running', price: '$85', category: 'Running' },
+      { img: 'https://source.unsplash.com/random/600x400/?sports,fitness', name: 'Mancuernas Set', price: '$45', category: 'Fitness' },
+      { img: 'https://source.unsplash.com/random/600x400/?sports,fitness', name: 'Balón Basket', price: '$35', category: 'Basket' },
     ],
     galeria: [
-      'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=600&q=80',
-      'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80',
-      'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80',
-      'https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?w=600&q=80',
-      'https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&q=80',
-      'https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=600&q=80',
+      'https://source.unsplash.com/random/600x400/?sports,fitness',
+      'https://source.unsplash.com/random/600x400/?sports,fitness',
+      'https://source.unsplash.com/random/600x400/?sports,fitness',
+      'https://source.unsplash.com/random/600x400/?sports,fitness',
+      'https://source.unsplash.com/random/600x400/?sports,fitness',
+      'https://source.unsplash.com/random/600x400/?sports,fitness',
     ],
   }
 
