@@ -8,34 +8,34 @@ const categories = [
   {
     name: 'Running',
     eyebrow: 'Velocidad + resistencia',
-    img: 'https://images.unsplash.com/photo-1552674605-5d226a5cfb90?w=1000&q=85&fit=crop',
+    img: '/img/running.jpg',
     stat: '42 modelos',
     featured: true,
   },
   {
     name: 'Training',
     eyebrow: 'Fuerza + movilidad',
-    img: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1000&q=85&fit=crop',
+    img: '/img/foto-15344383272761.jpg',
     stat: '36 piezas',
     featured: true,
   },
   {
     name: 'Fútbol',
     eyebrow: 'Cancha + precisión',
-    img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&q=85&fit=crop',
+    img: '/img/foto-15799523638732.jpg',
     stat: '24 kits',
   },
   {
     name: 'Basket',
     eyebrow: 'Salto + soporte',
-    img: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=85&fit=crop',
+    img: '/img/foto-154651963868e1.jpg',
     stat: '18 drops',
   },
 ]
 
 const products = [
   {
-    img: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900&q=85&fit=crop',
+    img: '/img/foto-15422910267eec.jpg',
     name: 'AeroPulse Runner Pro',
     category: 'Running',
     price: 89,
@@ -44,7 +44,7 @@ const products = [
     rating: '4.9',
   },
   {
-    img: 'https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?w=900&q=85&fit=crop',
+    img: '/img/foto-15184580287858.jpg',
     name: 'FlexMove Training Leggings',
     category: 'Training',
     price: 32,
@@ -52,7 +52,7 @@ const products = [
     rating: '4.8',
   },
   {
-    img: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=900&q=85&fit=crop',
+    img: '/img/foto-155306240798ee.jpg',
     name: 'Morral Training Pro 28L',
     category: 'Accesorios',
     price: 45,
@@ -61,7 +61,7 @@ const products = [
     rating: '4.7',
   },
   {
-    img: 'https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=900&q=85&fit=crop',
+    img: '/img/foto-15847359356822.jpg',
     name: 'PowerGrip Elite Gloves',
     category: 'Training',
     price: 18,
@@ -69,14 +69,14 @@ const products = [
     rating: '4.9',
   },
   {
-    img: 'https://images.unsplash.com/photo-1520698108819-77844014ea84?w=900&q=85&fit=crop',
+    img: '/img/thermal-bottle.jpg',
     name: 'HydroSport Thermal Bottle',
     category: 'Accesorios',
     price: 22,
     rating: '4.6',
   },
   {
-    img: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=900&q=85&fit=crop',
+    img: '/img/foto-15765665880284.jpg',
     name: 'DryTech Performance Tee',
     category: 'Training',
     price: 25,
@@ -85,14 +85,14 @@ const products = [
     rating: '4.8',
   },
   {
-    img: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=900&q=85&fit=crop',
+    img: '/img/foto-16061075571950.jpg',
     name: 'Court Air Basketball Pro',
     category: 'Basket',
     price: 95,
     rating: '4.7',
   },
   {
-    img: 'https://images.unsplash.com/photo-1591195853828-11db79442529?w=900&q=85&fit=crop',
+    img: '/img/running-shorts.jpg',
     name: 'RunFlow 2-in-1 Shorts',
     category: 'Running',
     price: 28,
@@ -176,7 +176,7 @@ function App() {
       <main>
         <section id="inicio" className="relative isolate overflow-hidden bg-slate-950">
           <img
-            src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1900&q=85&fit=crop"
+            src="/img/foto-15176497639620.jpg"
             alt="Atletas entrenando en una pista deportiva"
             className="absolute inset-0 -z-20 h-full w-full object-cover opacity-35"
           />
@@ -220,7 +220,7 @@ function App() {
             <div className="relative hidden min-h-[560px] lg:block">
               <div className="absolute right-0 top-8 w-[22rem] rotate-2 rounded-[2rem] border border-white/10 bg-white/10 p-4 shadow-2xl shadow-black/30 backdrop-blur-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900&q=90&fit=crop"
+                  src="/img/foto-15422910267eec.jpg"
                   alt="Zapatos running rojos"
                   className="h-72 w-full rounded-[1.5rem] object-cover"
                 />
@@ -393,7 +393,7 @@ function App() {
               </div>
             </div>
             <div className="relative min-h-[360px] bg-slate-950">
-              <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1000&q=85&fit=crop" alt="Persona entrenando con ropa deportiva" className="absolute inset-0 h-full w-full object-cover opacity-70" />
+              <img src="/img/foto-15186110121186.jpg" alt="Persona entrenando con ropa deportiva" className="absolute inset-0 h-full w-full object-cover opacity-70" />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 to-transparent" />
               <a href={WHATSAPP_URL} className="absolute bottom-8 left-8 right-8 rounded-full bg-cyan-300 px-6 py-4 text-center text-sm font-black text-slate-950 transition hover:bg-white">
                 Comprar por WhatsApp
